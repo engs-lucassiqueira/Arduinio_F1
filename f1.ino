@@ -68,7 +68,7 @@ void loop() {
       else if (passoVermelho == 3) { digitalWrite(ledVermelho3, HIGH); tone(pinoBuzzer, 2200); delay(100); noTone(pinoBuzzer); }
       else if (passoVermelho == 4) { 
         digitalWrite(ledVermelho4, HIGH); tone(pinoBuzzer, 2200); delay(100); noTone(pinoBuzzer);
-        duracaoEsperaAleatoria = random(1000, 5000); 
+        duracaoEsperaAleatoria = random(500, 5000); 
         tempoAnterior = tempoAtual;
         fase = 2; 
       }
